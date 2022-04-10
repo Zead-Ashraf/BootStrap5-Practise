@@ -1,0 +1,210 @@
+:root {
+	--dark: #19283f;
+	--green: #33d1cc;
+	--yellow: #ffc400;
+	--section-color: #eff7fa;
+}
+
+.main-btn {
+	color: var(--yellow);
+}
+
+/* ! start navbar */
+
+.navbar {
+	background-color: var(--dark);
+}
+
+.navbar .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+	color: var(--green);
+}
+
+.navbar .search {
+	border-left: 1px solid var(--green);
+}
+
+.navbar .search svg {
+	color: var(--green);
+}
+
+.navbar .navbar-toggler:focus {
+	box-shadow: none;
+}
+
+/* ! end navbar */
+
+/*! Start landing Section */
+
+.landing-section {
+	background-color: var(--dark);
+	min-height: calc(100vh - 70px);
+}
+
+/* ! Ened landing Section */
+
+/*! Start Featuers section */
+
+.main-title::after {
+	content: "";
+	width: 120px;
+	height: 2px;
+	background-color: var(--green);
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.icon-holder {
+	height: 200px;
+}
+
+.icon-holder .number {
+	color: var(--section-color);
+	font-size: 12rem;
+}
+
+.icon-holder .icon {
+	color: var(--green);
+	height: 50%;
+}
+
+.icon-holder svg {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.feat h5 {
+	color: var(--yellow);
+}
+
+/*! End Featuers section */
+
+/*! Start Our Work section */
+
+.our-work {
+	width: 100%;
+	height: 100%;
+	background-color: var(--section-color);
+}
+
+.nav-pills .nav-link:hover {
+	color: var(--yellow) !important;
+	cursor: pointer;
+}
+
+.nav-pills .nav-link.active {
+	background-color: #bb2d3b !important;
+	color: var(--yellow) !important;
+}
+
+/*! End Our Work section */
+
+/* ! Start Our Work section */
+
+.stuff-paragraph {
+	width: 40%;
+}
+
+/* ! End Our Work section */
+
+/* ! Start Our Team section */
+
+.our-team {
+	background-color: var(--section-color);
+}
+
+.our-team .our-team-title .title-header {
+	color: var(--yellow);
+}
+
+.our-team-elements .element-container .element-name {
+	width: 100%;
+	background-color: var(--green);
+	bottom: 0;
+	left: 0;
+}
+
+/* ! End Our Team section */
+
+/* ! Start Project Section */
+
+.project-section {
+	background-color: var(--dark);
+}
+
+/* ! End Project Section */
+
+/* ! Start Subsecribe Section */
+
+.subsecribe-section {
+	background-color: var(--yellow);
+}
+
+.subsecribe-section .form input {
+	width: 80%;
+	height: 30px;
+	color: white;
+	margin-right: 4.5%;
+	background-color: var(--yellow);
+	border: none;
+	border-bottom: 1px solid white;
+}
+
+.subsecribe-section .form input::placeholder {
+	color: white;
+}
+
+.subsecribe-section .form button {
+	width: 90px;
+	height: 36px;
+	color: var(--yellow);
+	border: none;
+	border-radius: 23px;
+	background-color: var(--dark);
+}
+
+/* ! End Subsecribe Section */
+
+/* ! Start Footer Section */
+
+footer {
+	background-color: var(--dark);
+}
+
+footer ul {
+	padding-left: 1rem;
+}
+
+footer .footer-side2 p,
+footer .footer-side3 p {
+	margin-bottom: 0.7rem;
+}
+
+footer .contact .media li a svg {
+	width: 20px;
+	height: 20px;
+}
+
+footer .facebook {
+	background-color: #1877f2;
+}
+
+footer .twitter {
+	background-color: #1da1f2;
+}
+
+footer .linkedin {
+	background-color: #0077b5;
+}
+
+footer .youtube {
+	background-color: #ff0000;
+}
+
+/* ! End Footer Section */
